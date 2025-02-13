@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { ArrowLeft, MessageCircle, Send } from 'lucide-react';
 import { sendChatMessage } from '../api/api'; // Import chatbot API function
 import ReactMarkdown from 'react-markdown';

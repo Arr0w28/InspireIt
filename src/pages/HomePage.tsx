@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Sparkles, Brain, Search, ArrowDown } from 'lucide-react';
 import ChatSidebar from '../Components/chatsidebar';
