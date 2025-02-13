@@ -108,7 +108,7 @@ function IdeaResult() {
       specifications: spec
     };
     try {
-      const response = await fetch('http://127.0.0.1:8000/generate/submit/extra-suggestions/', {
+      const response = await fetch('http://34.172.161.191:8000/generate/submit/extra-suggestions/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

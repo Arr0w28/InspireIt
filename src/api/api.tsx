@@ -1,7 +1,7 @@
 // api.tsx
 import axios from "axios";
 
-const BASE_URL =process.env.REACT_APP_BASE_URL //"http://34.172.161.191:8000"; // Adjust if needed
+const BASE_URL ="http://34.172.161.191:8000"//process.env.REACT_APP_BASE_URL //"http://34.172.161.191:8000"; // Adjust if needed
 console.log(BASE_URL)
 export const fetchGenerate = async () => {
   const response = await axios.get(`${BASE_URL}/generate/`);
